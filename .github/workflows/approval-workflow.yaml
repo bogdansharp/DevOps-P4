@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Label approved PRs
-        uses: koj-co/label-approved-action@1.0.0
+        uses: koj-co/label-approved-action@master
         with:
           labels: approved
           approvals: 1
